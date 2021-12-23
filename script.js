@@ -68,13 +68,13 @@ speakers.addEventListener('click', () => {
 });
 
 downArrowaBtn.addEventListener('click', () => {
-  document.querySelectorAll('.restofimages > div').forEach((x) => {x.style.display = 'flex'});
+  document.querySelectorAll('.restofimages > div').forEach((x) => {x.style.display = 'flex';});
   downArrowaBtn.style.display = 'none';
   upArrowBtn.style.display = 'block';
 });
 
 upArrowBtn.addEventListener('click', () => {
-  document.querySelectorAll( '.restofimages > div:not(:first-child):not(:nth-child(2))').forEach((x) => { x.style.display = 'none';});
+  document.querySelectorAll( '.restofimages > div:not(:first-child):not(:nth-child(2))').forEach((x) =>{ x.style.display = 'none'; });
   upArrowBtn.style.display = 'none';
   downArrowaBtn.style.display = 'block';
 });
