@@ -32,8 +32,18 @@ html {
   padding: 15px;
 }
 
+.cards h2 {
+  color: white;
+  padding-left: 150px;
+}
+
 .container {
   display: none;
+}
+
+.mainprogram p {
+  width: 40px;
+  border-bottom: 1px solid #ec5242;
 }
 
 /* main page */
@@ -46,12 +56,29 @@ html {
   height: 100vh;
 }
 
+.seethe h2 {
+  display: none;
+  justify-content: center;
+}
+
+.speakers h1 {
+  text-align: center;
+}
+
+.topcontent h1 {
+  margin-top: 20px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.timcontent h2 {
+  font-family: 'Secular One', sans-serif;
+}
+
 #paragraph h1 {
   font-weight: 400;
-  font-size: 72px;
+  font-size: 40px;
   font-style: normal;
-  font-family: serif;
-  color: black;
+  color: rgb(103, 50, 39);
   font-family: 'Secular One', sans-serif;
 }
 
@@ -78,7 +105,6 @@ html {
 #paragraph p {
   font-size: large;
   color: black;
-
   padding-bottom: 30px;
 }
 
@@ -88,11 +114,6 @@ html {
   background-image: url(./images/allblack.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.cards h2 {
-  color: white;
-  padding-left: 150px;
 }
 
 .cards h5 {
@@ -113,11 +134,6 @@ html {
   flex-direction: column;
   text-align: center;
   gap: 10px;
-}
-
-.mainprogram p {
-  width: 40px;
-  border-bottom: 1px solid #ec5242;
 }
 
 .mainprogram h5 {
@@ -145,7 +161,6 @@ html {
   padding: 10px;
   align-items: center;
   justify-content: center;
-  text-overflow: hidden;
 }
 
 .grid h4 {
@@ -161,11 +176,6 @@ html {
   display: flex;
   justify-content: center;
   padding-bottom: 20px;
-}
-
-.seethe h2 {
-  display: none;
-  justify-content: center;
 }
 
 .seethe button {
@@ -193,20 +203,11 @@ html {
   align-items: center;
 }
 
-.speakers h1 {
-  text-align: center;
-}
-
 .topcontent {
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.topcontent h1 {
-  margin-top: 20px;
-  font-family: 'Secular One', sans-serif;
 }
 
 #line {
@@ -237,20 +238,12 @@ html {
   margin-left: 35px;
 }
 
-.timcontent h2 {
-  font-family: 'Secular One', sans-serif;
-}
-
 #images {
   width: 100px;
   height: 90px;
 }
 
 /* ARROW BUTTON */
-
-.arrow {
-  padding: 20px;
-}
 
 #downarrowbtn {
   width: 100%;
@@ -269,6 +262,17 @@ html {
 
 #downarrow {
   width: 20px;
+}
+
+#more{
+  width: 100%;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.365);
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* DROPDOWN */
@@ -327,6 +331,11 @@ html {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding: 20px;
+}
+
+.menu-container a:hover {
+  border-bottom: 2px solid orange;
 }
 
 #lessarrowbtn {
@@ -362,10 +371,6 @@ html {
   display: none;
 }
 
-.menu-container a:hover {
-  border-bottom: 2px solid orange;
-}
-
 .checkers {
   background-image: url(./images/checkerboard.png);
   background-repeat: no-repeat;
@@ -374,6 +379,12 @@ html {
 }
 
 @media (min-width: 768px) {
+  .container ul li a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+  }
+
   .container {
     display: flex;
     justify-content: space-between;
@@ -400,12 +411,6 @@ html {
     flex-direction: row;
     margin-top: 40px;
     margin-bottom: 40px;
-  }
-
-  .container ul li a {
-    display: flex;
-    color: white;
-    text-decoration: none;
   }
 
   #homeicon {
@@ -496,6 +501,10 @@ html {
 
   #lessarrowbtn {
     display: none;
+  }
+
+  #more{
+  display: none;
   }
 
   #union {

@@ -27,19 +27,10 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  text-overflow: hidden;
 }
 
 .topcontent h1 {
   color: #de834d;
-}
-
-.topcontent h2 {
-  color: #781d42;
-  font-family: 'Inter', sans-serif;
-  font-size: 32px;
-  align-items: center;
-  font-weight: 700;
 }
 
 .middlecontent {
@@ -60,11 +51,36 @@
   color: white;
 }
 
-#future {
-  color: black;
+.browsers li {
+  list-style: none;
+}
+
+.browsers li a {
+  color: white;
+  text-decoration: none;
+}
+
+.technologies li {
+  list-style: none;
 }
 
 /* contactsec */
+
+.hamburger ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  font-style: normal;
+  font-family: 'Inter', sans-serif;
+  width: 100%;
+}
+
+.lastpartimg h1,
+p {
+  color: white;
+}
 
 .contactsec {
   display: flex;
@@ -118,17 +134,6 @@
   list-style: none;
 }
 
-.hamburger ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  font-style: normal;
-  font-family: 'Inter', sans-serif;
-  width: 100%;
-}
-
 .menu-container {
   width: 100%;
 }
@@ -145,7 +150,6 @@
 
 .imagecontainer {
   width: 100%;
-
   padding: 25px;
 }
 
@@ -164,6 +168,7 @@
 .lastpart h2 {
   color: #de834d;
 }
+
 #past {
   width: 30px;
   border-bottom: 2px solid red;
@@ -184,12 +189,12 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  text-overflow: hidden;
 }
 
 .middlepart h1 {
   color: #de834d;
   padding-bottom: 20px;
+  font-family: 'Secular One', sans-serif;
 }
 
 .middlepart p {
@@ -210,11 +215,6 @@
 
 .lastpartimg {
   border-radius: 20px;
-}
-
-.lastpartimg h1,
-p {
-  color: white;
 }
 
 .newyork {
@@ -281,15 +281,6 @@ p {
   padding: 10px;
 }
 
-.browsers li {
-  list-style: none;
-}
-
-.browsers li a {
-  color: white;
-  text-decoration: none;
-}
-
 #google {
   color: rgba(255, 255, 255, 0.495);
   font-size: 25px;
@@ -312,11 +303,8 @@ p {
   margin-bottom: 15px;
 }
 
-.technologies li {
-  list-style: none;
-}
-
 /* last content */
+
 .lastcontent {
   display: flex;
   justify-content: center;
@@ -330,14 +318,16 @@ p {
 
 #future {
   padding: 20px;
+  color: black;
 }
 
 .topcontent h2 {
   font-family: 'Secular One', sans-serif;
-}
-
-.middlepart h1 {
-  font-family: 'Secular One', sans-serif;
+  color: #781d42;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  align-items: center;
+  font-weight: 700;
 }
 
 .held h2 {
