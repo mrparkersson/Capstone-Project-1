@@ -394,7 +394,11 @@ p {
     text-decoration: none;
   }
 
-  .container ul li a:hover{
+  .menu-container a:hover {
+    border-bottom: 2px solid orange;
+  }
+
+  .container ul li a:hover {
     color: orangered;
   }
 
@@ -423,10 +427,6 @@ p {
 
   .contactsec {
     margin-top: 0;
-  }
-
-  .menu-container a:hover {
-    border-bottom: 2px solid orange;
   }
 
   .toppart {
