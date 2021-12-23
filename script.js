@@ -77,11 +77,7 @@ downArrowaBtn.addEventListener('click', () => {
 
 upArrowBtn.addEventListener('click', () => {
   document
-    .querySelectorAll(
-      '.restofimages > div:not(:first-child):not(:nth-child(2))'
-    ).forEach((x) => {
-      x.style.display = 'none';
-    });
+    .querySelectorAll( '.restofimages > div:not(:first-child):not(:nth-child(2))').forEach((x) => { x.style.display = 'none';});
   upArrowBtn.style.display = 'none';
   downArrowaBtn.style.display = 'block';
 });

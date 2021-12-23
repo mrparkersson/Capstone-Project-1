@@ -37,6 +37,11 @@
   padding: 30px;
 }
 
+.lastpartimg h1,
+p {
+  color: white;
+}
+
 .aboutcontent {
   padding: 30px;
   border: 1px solid rgba(128, 128, 128, 0.365);
@@ -66,6 +71,13 @@
 
 /* contactsec */
 
+.contactsec a {
+  text-decoration: none;
+  color: rgb(121, 16, 16);
+  margin-top: 25px;
+  border-bottom: 1px solid gold;
+}
+
 .hamburger ul li a {
   text-decoration: none;
   color: black;
@@ -77,22 +89,10 @@
   width: 100%;
 }
 
-.lastpartimg h1,
-p {
-  color: white;
-}
-
 .contactsec {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
-
-.contactsec a {
-  text-decoration: none;
-  color: rgb(121, 16, 16);
-  margin-top: 25px;
-  border-bottom: 1px solid gold;
 }
 
 .contactsec a:hover {
@@ -174,6 +174,11 @@ p {
   border-bottom: 2px solid red;
 }
 
+#past2 {
+  width: 30px;
+  border-bottom: 2px solid red;
+}
+
 .held {
   display: flex;
   flex-direction: column;
@@ -245,7 +250,24 @@ p {
   padding: 100px;
 }
 
+#redcolor2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.523);
+  padding: 100px;
+}
+
 #ptag {
+  color: white;
+}
+
+#ptag2 {
   color: white;
 }
 
@@ -324,7 +346,6 @@ p {
 .topcontent h2 {
   font-family: 'Secular One', sans-serif;
   color: #781d42;
-  font-family: 'Inter', sans-serif;
   font-size: 32px;
   align-items: center;
   font-weight: 700;

@@ -192,7 +192,27 @@ html {
 
 /* ICONS */
 
-#icons {
+#cash {
+  width: 40px;
+  height: 40px;
+}
+
+#buyupgrade {
+  width: 40px;
+  height: 40px;
+}
+
+#debt {
+  width: 40px;
+  height: 40px;
+}
+
+#conference {
+  width: 40px;
+  height: 40px;
+}
+
+#complaint{
   width: 40px;
   height: 40px;
 }
@@ -264,7 +284,11 @@ html {
   width: 20px;
 }
 
-#more{
+#downarrow2 {
+  width: 20px;
+}
+
+#more {
   width: 100%;
   background-color: white;
   border: 1px solid rgba(128, 128, 128, 0.365);
@@ -344,7 +368,6 @@ html {
   border: 1px solid rgba(128, 128, 128, 0.365);
   border-radius: 5px;
   align-items: center;
-  display: flex;
   justify-content: center;
   text-align: center;
   display: none;
@@ -503,8 +526,8 @@ html {
     display: none;
   }
 
-  #more{
-  display: none;
+  #more {
+    display: none;
   }
 
   #union {
