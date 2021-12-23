@@ -56,6 +56,13 @@ p {
   color: white;
 }
 
+.contactsec a {
+  text-decoration: none;
+  color: rgb(121, 16, 16);
+  margin-top: 25px;
+  border-bottom: 1px solid gold;
+}
+
 .browsers li {
   list-style: none;
 }
@@ -70,13 +77,6 @@ p {
 }
 
 /* contactsec */
-
-.contactsec a {
-  text-decoration: none;
-  color: rgb(121, 16, 16);
-  margin-top: 25px;
-  border-bottom: 1px solid gold;
-}
 
 .hamburger ul li a {
   text-decoration: none;
