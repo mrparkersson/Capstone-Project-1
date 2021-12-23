@@ -8,7 +8,6 @@
 
 - HTML
 - CSS
-- Javascript
 
 ## Online live link
 
