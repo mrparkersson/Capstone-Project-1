@@ -394,6 +394,10 @@ p {
     text-decoration: none;
   }
 
+  .container ul li a:hover{
+    color: orangered;
+  }
+
   #homeicon {
     height: 40px;
     width: 40px;
