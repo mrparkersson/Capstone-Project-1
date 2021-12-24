@@ -1,17 +1,25 @@
 ![](https://img.shields.io/badge/mrparkersson-blueviolet)
 
-# Mobile Version
+# Capstone Project 1
 
-> Capstone Project
+> Capstone Project - This project is my first capstone project in Microverse. 
+ It is basically the about and work section of a business page and speakers to be presented at the meeting. 
+ Using HTML CSS to design the frontview of the page and using Javascript to render the page dynamically and implementing click functions
 
 ## Built With
 
 - HTML
 - CSS
+- JavaScript
+
+## Online Demonstration of my project
+
+[video]
+https://drive.google.com/file/d/1542xqKWw9Dfptriw3ADSD8COP7CSlFOW/view?usp=sharing
 
 ## Online live link
 
-[Visit project online](https://github.com/mrparkersson/Capstone-Project-1)
+[Visit project online](https://mrparkersson.github.io/Capstone-Project-1/)
 
 ## Getting Started
 
@@ -28,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Visit And Open Files
 
-[Visit Repo](https://github.com/mrparkersson/mobile-version)
+[Visit Repo](https://github.com/mrparkersson/Capstone-Project-1)
 
 ## Download Repo
 
@@ -59,3 +67,14 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
+
+## Link used
+
+- Google
+- Smartdraw
+- BBC 
+- Investopedia
+
+## Acknowledgement
+
+-  Cindy Shin the author of the original design
