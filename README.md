@@ -13,7 +13,8 @@
 - JavaScript
 
 ## Online Demonstration of my project
-[Video link of my project Description](https://drive.google.com/file/d/1542xqKWw9Dfptriw3ADSD8COP7CSlFOW/view?usp=sharing)
+[video]
+https://drive.google.com/file/d/1542xqKWw9Dfptriw3ADSD8COP7CSlFOW/view?usp=sharing
 
 ## Online live link
 
