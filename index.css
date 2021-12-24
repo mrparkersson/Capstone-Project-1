@@ -418,18 +418,22 @@ html {
 }
 
 @media (min-width: 768px) {
+  .browsers li a {
+    color: white;
+    text-decoration: none;
+  }
+
   .container ul li a {
     display: flex;
     color: white;
     text-decoration: none;
   }
 
-  .browsers li a {
-    color: white;
-    text-decoration: none;
+  .browsers li {
+    list-style: none;
   }
 
-  .browsers li {
+  .technologies li {
     list-style: none;
   }
 
@@ -532,10 +536,6 @@ html {
     align-items: center;
     gap: 40px;
     padding: 30px;
-  }
-
-  .technologies li {
-    list-style: none;
   }
 
   .toppart {
