@@ -38,7 +38,7 @@ html {
   padding-left: 150px;
 }
 
-.containercontent{
+.containercontent {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,12 +46,22 @@ html {
   margin-left: 100px;
 }
 
-.container a:first-child{
+.hamburger ul li a {
+  text-decoration: none;
+  color: rgba(75, 17, 17, 0.66);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  font-style: normal;
+  font-family: 'Secular One', sans-serif;
+  width: 100%;
+}
+
+.container a:first-child {
   text-decoration: none;
   color: black;
   justify-content: center;
   text-align: center;
-
 }
 
 .container {
@@ -342,17 +352,6 @@ html {
   list-style: none;
 }
 
-.hamburger ul li a {
-  text-decoration: none;
-  color: rgba(75, 17, 17, 0.66);
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  font-style: normal;
-  font-family: 'Secular One', sans-serif;
-  width: 100%;
-}
-
 .menu-container {
   width: 100%;
 }
@@ -511,7 +510,7 @@ html {
     flex-direction: column;
   }
 
-  .grid{
+  .grid {
     display: flex;
     flex-direction: column;
   }
@@ -522,7 +521,7 @@ html {
     color: black;
   }
 
-  .navbarcontent{
+  .navbarcontent {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -566,7 +565,7 @@ html {
     display: none;
   }
 
-  #signup{
+  #signup {
     text-decoration: none;
     color: orangered;
     border: 4px solid orangered;
