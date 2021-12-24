@@ -506,7 +506,7 @@ p {
   }
 
   .imagecontent {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -514,7 +514,7 @@ p {
   }
 
   .imagecontent h2 {
-     font-family: 'Secular One',sans-serif;
+    font-family: 'Secular One', sans-serif;
   }
 
   #downarrowbtn {
