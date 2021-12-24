@@ -28,13 +28,30 @@ html {
 }
 
 .navbar {
-  background-color: #0a1016c4;
+  background-color: rgba(9, 8, 8, 0.742);
   padding: 15px;
+  color: black;
 }
 
 .cards h2 {
   color: white;
   padding-left: 150px;
+}
+
+.containercontent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.container a:first-child{
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  text-align: center;
+
 }
 
 .container {
@@ -303,7 +320,7 @@ html {
 
 .hamburger {
   display: none;
-  background-color: #f5f4f4;
+  background-color: rgb(245, 244, 242);
   color: #fff5e1;
   position: fixed;
   width: 100vw;
@@ -327,12 +344,12 @@ html {
 
 .hamburger ul li a {
   text-decoration: none;
-  color: black;
+  color: rgba(75, 17, 17, 0.66);
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   font-style: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Secular One', sans-serif;
   width: 100%;
 }
 
@@ -463,7 +480,8 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 30px;
+    background: rgba(0, 0, 0, 0.68);
+    color: white;
   }
 
   .toppart ul {
@@ -471,6 +489,7 @@ html {
     gap: 20px;
     align-items: center;
     justify-content: center;
+    margin-right: 40px;
   }
 
   .toppart ul li {
@@ -490,6 +509,23 @@ html {
   .flexspeakers {
     display: flex;
     flex-direction: column;
+  }
+
+  .grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar {
+    background-color: #ffff;
+    padding: 15px;
+    color: black;
+  }
+
+  .navbarcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .restofimages {
@@ -528,6 +564,14 @@ html {
 
   #more {
     display: none;
+  }
+
+  #signup{
+    text-decoration: none;
+    color: orangered;
+    border: 4px solid orangered;
+    padding: 7px;
+    margin-right: 120px;
   }
 
   #union {

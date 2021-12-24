@@ -11,11 +11,6 @@
   cursor: pointer;
 }
 
-.navbar {
-  background-color: #0a1016c4;
-  padding: 15px;
-}
-
 .aboutcontainer {
   background-color: #f4f4f4a1;
 }
@@ -78,14 +73,40 @@ p {
 
 /* contactsec */
 
+/* DROPDOWN */
+
+.hamburger {
+  display: none;
+  background-color: rgb(245, 244, 242);
+  color: #fff5e1;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 199;
+  top: 0;
+  left: 0;
+}
+
+.hamburger ul {
+  display: flex;
+  flex-direction: column;
+  padding: 108px 108px;
+}
+
+.hamburger ul li {
+  margin-top: 40px;
+  border-bottom: 2px solid wheat;
+  list-style: none;
+}
+
 .hamburger ul li a {
   text-decoration: none;
-  color: black;
+  color: rgba(75, 17, 17, 0.66);
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
   font-style: normal;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Secular One', sans-serif;
   width: 100%;
 }
 
@@ -136,6 +157,12 @@ p {
 
 .menu-container {
   width: 100%;
+}
+
+.navbar {
+  background-color: rgba(9, 8, 8, 0.742);
+  padding: 15px;
+  color: black;
 }
 
 #xicon {
@@ -370,6 +397,14 @@ p {
     align-items: center;
   }
 
+  .containercontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-left: 100px;
+  }
+
   .container ul {
     display: flex;
     gap: 20px;
@@ -419,6 +454,22 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .navbar {
+    background-color: #ffff;
+    padding: 15px;
+    color: black;
+  }
+
+  .navbarcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navbar ul li a{
+    color: black;
   }
 
   .aboutcontainer {
@@ -479,8 +530,16 @@ p {
     width: 400px;
   }
 
-  .lastcontent {
-    display: none;
+  .imagecontent{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+  }
+
+  .imagecontent h2{
+     font-family: 'Secular One',sans-serif;
   }
 
   #downarrowbtn {
@@ -489,6 +548,14 @@ p {
 
   #lessarrowbtn {
     display: none;
+  }
+
+  #signup{
+    text-decoration: none;
+    color: orangered;
+    border: 4px solid orangered;
+    padding: 7px;
+    margin-right: 120px;
   }
 
   #union {
