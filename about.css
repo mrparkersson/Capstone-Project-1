@@ -409,6 +409,10 @@ p {
     color: black;
   }
 
+  .lastcontainer {
+    display: none;
+  }
+
   .menu-container a:hover {
     border-bottom: 2px solid orange;
   }

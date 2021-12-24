@@ -417,6 +417,10 @@ html {
   padding: 20px 0 0 20px;
 }
 
+footer {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .browsers li a {
     color: white;
@@ -571,6 +575,10 @@ html {
   .flexspeakers {
     display: flex;
     flex-direction: column;
+  }
+
+  footer {
+    display: block;
   }
 
   .grid {
