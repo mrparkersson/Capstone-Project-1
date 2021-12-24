@@ -130,31 +130,6 @@ p {
   display: none;
 }
 
-/* hamburger dropdown */
-.hamburger {
-  display: none;
-  background-color: #f5f4f4;
-  color: #fff5e1;
-  position: fixed;
-  width: 100vw;
-  height: 100vh;
-  z-index: 199;
-  top: 0;
-  left: 0;
-}
-
-.hamburger ul {
-  display: flex;
-  flex-direction: column;
-  padding: 108px 108px;
-}
-
-.hamburger ul li {
-  margin-top: 40px;
-  border-bottom: 2px solid wheat;
-  list-style: none;
-}
-
 .menu-container {
   width: 100%;
 }
@@ -397,7 +372,7 @@ p {
     align-items: center;
   }
 
-  .containercontent{
+  .containercontent {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -427,6 +402,10 @@ p {
     display: flex;
     color: white;
     text-decoration: none;
+  }
+
+  .navbar ul li a {
+    color: black;
   }
 
   .menu-container a:hover {
@@ -462,14 +441,10 @@ p {
     color: black;
   }
 
-  .navbarcontent{
+  .navbarcontent {
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .navbar ul li a{
-    color: black;
   }
 
   .aboutcontainer {
@@ -530,7 +505,7 @@ p {
     width: 400px;
   }
 
-  .imagecontent{
+  .imagecontent {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -538,7 +513,7 @@ p {
     padding: 50px;
   }
 
-  .imagecontent h2{
+  .imagecontent h2 {
      font-family: 'Secular One',sans-serif;
   }
 
@@ -550,7 +525,7 @@ p {
     display: none;
   }
 
-  #signup{
+  #signup {
     text-decoration: none;
     color: orangered;
     border: 4px solid orangered;
