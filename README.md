@@ -17,7 +17,7 @@
 
 ## Online live link
 
-[Visit project online](https://github.com/mrparkersson/Capstone-Project-1)
+[Visit project online](https://mrparkersson.github.io/Capstone-Project-1/)
 
 ## Getting Started
 
