@@ -28,12 +28,49 @@ html {
 }
 
 .navbar {
-  background-color: #0a1016c4;
+  background-color: rgba(9, 8, 8, 0.742);
   padding: 15px;
+  color: black;
+}
+
+.cards h2 {
+  color: white;
+  padding-left: 150px;
+}
+
+.containercontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.hamburger ul li a {
+  text-decoration: none;
+  color: rgba(75, 17, 17, 0.66);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  font-style: normal;
+  font-family: 'Secular One', sans-serif;
+  width: 100%;
+}
+
+.container a:first-child {
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  text-align: center;
 }
 
 .container {
   display: none;
+}
+
+.mainprogram p {
+  width: 40px;
+  border-bottom: 1px solid #ec5242;
 }
 
 /* main page */
@@ -46,12 +83,29 @@ html {
   height: 100vh;
 }
 
+.seethe h2 {
+  display: none;
+  justify-content: center;
+}
+
+.speakers h1 {
+  text-align: center;
+}
+
+.topcontent h1 {
+  margin-top: 20px;
+  font-family: 'Secular One', sans-serif;
+}
+
+.timcontent h2 {
+  font-family: 'Secular One', sans-serif;
+}
+
 #paragraph h1 {
   font-weight: 400;
-  font-size: 72px;
+  font-size: 40px;
   font-style: normal;
-  font-family: serif;
-  color: black;
+  color: rgb(103, 50, 39);
   font-family: 'Secular One', sans-serif;
 }
 
@@ -78,7 +132,6 @@ html {
 #paragraph p {
   font-size: large;
   color: black;
-
   padding-bottom: 30px;
 }
 
@@ -88,11 +141,6 @@ html {
   background-image: url(./images/allblack.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.cards h2 {
-  color: white;
-  padding-left: 150px;
 }
 
 .cards h5 {
@@ -113,11 +161,6 @@ html {
   flex-direction: column;
   text-align: center;
   gap: 10px;
-}
-
-.mainprogram p {
-  width: 40px;
-  border-bottom: 1px solid #ec5242;
 }
 
 .mainprogram h5 {
@@ -145,7 +188,6 @@ html {
   padding: 10px;
   align-items: center;
   justify-content: center;
-  text-overflow: hidden;
 }
 
 .grid h4 {
@@ -163,11 +205,6 @@ html {
   padding-bottom: 20px;
 }
 
-.seethe h2 {
-  display: none;
-  justify-content: center;
-}
-
 .seethe button {
   background: #ec5242;
   color: white;
@@ -182,7 +219,27 @@ html {
 
 /* ICONS */
 
-#icons {
+#cash {
+  width: 40px;
+  height: 40px;
+}
+
+#buyupgrade {
+  width: 40px;
+  height: 40px;
+}
+
+#debt {
+  width: 40px;
+  height: 40px;
+}
+
+#conference {
+  width: 40px;
+  height: 40px;
+}
+
+#complaint {
   width: 40px;
   height: 40px;
 }
@@ -193,20 +250,11 @@ html {
   align-items: center;
 }
 
-.speakers h1 {
-  text-align: center;
-}
-
 .topcontent {
   align-items: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
-}
-
-.topcontent h1 {
-  margin-top: 20px;
-  font-family: 'Secular One', sans-serif;
 }
 
 #line {
@@ -237,20 +285,12 @@ html {
   margin-left: 35px;
 }
 
-.timcontent h2 {
-  font-family: 'Secular One', sans-serif;
-}
-
 #images {
   width: 100px;
   height: 90px;
 }
 
 /* ARROW BUTTON */
-
-.arrow {
-  padding: 20px;
-}
 
 #downarrowbtn {
   width: 100%;
@@ -271,11 +311,26 @@ html {
   width: 20px;
 }
 
+#downarrow2 {
+  width: 20px;
+}
+
+#more {
+  width: 100%;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.365);
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 /* DROPDOWN */
 
 .hamburger {
   display: none;
-  background-color: #f5f4f4;
+  background-color: rgb(245, 244, 242);
   color: #fff5e1;
   position: fixed;
   width: 100vw;
@@ -297,17 +352,6 @@ html {
   list-style: none;
 }
 
-.hamburger ul li a {
-  text-decoration: none;
-  color: black;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 44px;
-  font-style: normal;
-  font-family: 'Inter', sans-serif;
-  width: 100%;
-}
-
 .menu-container {
   width: 100%;
 }
@@ -327,6 +371,11 @@ html {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding: 20px;
+}
+
+.menu-container a:hover {
+  border-bottom: 2px solid orange;
 }
 
 #lessarrowbtn {
@@ -335,7 +384,6 @@ html {
   border: 1px solid rgba(128, 128, 128, 0.365);
   border-radius: 5px;
   align-items: center;
-  display: flex;
   justify-content: center;
   text-align: center;
   display: none;
@@ -362,10 +410,6 @@ html {
   display: none;
 }
 
-.menu-container a:hover {
-  border-bottom: 2px solid orange;
-}
-
 .checkers {
   background-image: url(./images/checkerboard.png);
   background-repeat: no-repeat;
@@ -373,7 +417,30 @@ html {
   padding: 20px 0 0 20px;
 }
 
+footer {
+  display: none;
+}
+
 @media (min-width: 768px) {
+  .browsers li a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .container ul li a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+  }
+
+  .browsers li {
+    list-style: none;
+  }
+
+  .technologies li {
+    list-style: none;
+  }
+
   .container {
     display: flex;
     justify-content: space-between;
@@ -402,17 +469,20 @@ html {
     margin-bottom: 40px;
   }
 
-  .container ul li a {
-    display: flex;
-    color: white;
-    text-decoration: none;
-  }
-
   #homeicon {
     height: 40px;
     width: 40px;
     border-radius: 50px;
     margin-left: 40px;
+  }
+
+  .lastcontainer {
+    background-color: rgba(0, 0, 0, 0.817);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .mainprogram h5 {
@@ -431,11 +501,53 @@ html {
     border-bottom: 2px solid orange;
   }
 
+  .partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partner h1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  .partner p {
+    margin-bottom: 20px;
+  }
+
+  .browsers {
+    display: flex;
+    gap: 50px;
+    padding: 10px;
+  }
+
+  .imagecontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+  }
+
+  .lastcontent p {
+    color: rgba(0, 0, 0, 0.386);
+  }
+
+  .lastcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+  }
+
   .toppart {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-right: 30px;
+    background: rgba(0, 0, 0, 0.68);
+    color: white;
   }
 
   .toppart ul {
@@ -443,6 +555,7 @@ html {
     gap: 20px;
     align-items: center;
     justify-content: center;
+    margin-right: 40px;
   }
 
   .toppart ul li {
@@ -462,6 +575,27 @@ html {
   .flexspeakers {
     display: flex;
     flex-direction: column;
+  }
+
+  footer {
+    display: block;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar {
+    background-color: #ffff;
+    padding: 15px;
+    color: black;
+  }
+
+  .navbarcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .restofimages {
@@ -485,6 +619,13 @@ html {
     display: none;
   }
 
+  .technologies {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
   .timcontent {
     display: flex;
     flex-direction: column;
@@ -496,6 +637,38 @@ html {
 
   #lessarrowbtn {
     display: none;
+  }
+
+  #past {
+    width: 30px;
+    border-bottom: 2px solid red;
+  }
+
+  #google {
+    color: rgba(255, 255, 255, 0.495);
+    font-size: 25px;
+  }
+
+  #mozilla {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.981);
+  }
+
+  #naver {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.495);
+  }
+
+  #more {
+    display: none;
+  }
+
+  #signup {
+    text-decoration: none;
+    color: orangered;
+    border: 4px solid orangered;
+    padding: 7px;
+    margin-right: 120px;
   }
 
   #union {

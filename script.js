@@ -2,7 +2,7 @@ const union = document.querySelector('#union');
 const dropDown = document.querySelector('.hamburger');
 const xicon = document.querySelector('#xicon');
 const speakers = document.querySelector('#speakers');
-const downArrowaBtn = document.querySelector('#downarrowbtn');
+const downArrowaBtn = document.querySelector('#more');
 const upArrowBtn = document.querySelector('#lessarrowbtn');
 const restOfImages = document.querySelector('.restofimages');
 
@@ -68,21 +68,13 @@ speakers.addEventListener('click', () => {
 });
 
 downArrowaBtn.addEventListener('click', () => {
-  document.querySelectorAll('.restofimages > div').forEach((x) => {
-    x.style.display = 'flex';
-  });
+  document.querySelectorAll('.restofimages > div').forEach((x) => { x.style.display = 'flex'; });
   downArrowaBtn.style.display = 'none';
   upArrowBtn.style.display = 'block';
 });
 
 upArrowBtn.addEventListener('click', () => {
-  document
-    .querySelectorAll(
-      '.restofimages > div:not(:first-child):not(:nth-child(2))'
-    )
-    .forEach((x) => {
-      x.style.display = 'none';
-    });
+  document.querySelectorAll('.restofimages > div:not(:first-child):not(:nth-child(2))').forEach((x) => { x.style.display = 'none'; });
   upArrowBtn.style.display = 'none';
   downArrowaBtn.style.display = 'block';
 });

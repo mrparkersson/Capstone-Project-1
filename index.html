@@ -25,7 +25,7 @@
   </head>
   <body>
     <!-- HOME SECCTION -->
-    <section class="homesection">
+    <header>
       <div class="toppart">
         <p></p>
         <ul>
@@ -44,26 +44,40 @@
           <li>Services</li>
         </ul>
       </div>
+    </header>
+    <section class="homesection">
+      
+      
 
       <!-- NAVBAR SECTION  -->
       <div class="navbar">
         <img src="./images/icons/Union.svg" alt="Union img" id="union" />
         <div class="container">
-          <a href="/index.html"
+          <div class="containercontent">
+          <a href="./index.html"
             ><img src="./images/icons/homeicon.jpeg" alt="home icon" id="homeicon"
           /></a>
-          <ul>
-            <li><a href="./about.html">About</a></li>
-            <li><a href="https://mail.google.com/mail/u/0/">Contact</a></li>
-            <li><a href="https://www.investopedia.com/terms/b/business-asset.asp">Assets</a></li>
-            <li><a href="https://www.bbc.com/news/business">News</a></li>
-            <li><a href="https://www.smartdraw.com/organizational-chart/" id="chart">Chart</a></li>
-          </ul>
+           <h4>BCB-B2C</h4>
+          </div>
+          <!-- navbar sign up -->
+           <div class="navbarcontent">
+            <ul>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="https://mail.google.com/mail/u/0/">Contact</a></li>
+              <li><a href="https://www.investopedia.com/terms/b/business-asset.asp">Assets</a></li>
+              <li><a href="https://www.bbc.com/news/business">News</a></li>
+              <li><a href="https://www.smartdraw.com/organizational-chart/" id="chart">Chart</a></li>
+            </ul>
+            <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015" id="signup">Sign Up</a>
+           </div>
+
+          
         </div>
       </div>
 
       <!-- DROPDOWN -->
       <section class="dropdown">
+        <h1></h1>
         <div class="hamburger">
           <div class="menu-container">
             <img src="./images/icons/Icon.svg" alt="xicon image" id="xicon" />
@@ -108,7 +122,7 @@
         <div class="cardgroup">
           <!-- first card -->
           <div class="grid">
-            <img src="./images/icons/cash.png" alt="cash img" id="icons" />
+            <img src="./images/icons/cash.png" alt="cash img" id="cash" />
             <h4>Cash</h4>
             <h3>Money movement and its uses</h3>
           </div>
@@ -117,14 +131,14 @@
             <img
               src="./images/icons/buyupgrade.png"
               alt="buyupgrade img"
-              id="icons"
+              id="buyupgrade"
             />
             <h4>Upgrade</h4>
             <h3>Buy and win 30% bonus</h3>
           </div>
           <!-- third card -->
           <div class="grid">
-            <img src="./images/icons/debt.png" alt="debt img" id="icons" />
+            <img src="./images/icons/debt.png" alt="debt img" id="debt" />
             <h4>Debt</h4>
             <h3>All information on your debt</h3>
           </div>
@@ -133,7 +147,7 @@
             <img
               src="./images/icons/complaint.png"
               alt="complaint img"
-              id="icons"
+              id="complaint"
             />
             <h4>Complaint</h4>
             <h3>Talk to one of our agents</h3>
@@ -143,7 +157,7 @@
             <img
               src="./images/icons/conference.gif"
               alt="conference img"
-              id="icons"
+              id="conference"
             />
             <h4>Conference</h4>
             <h3>Every meeting and its rules</h3>
@@ -151,13 +165,11 @@
         </div>
         <h5 class="program">SEE THE MAIN PROGRAM</h5>
         <div class="seethe">
-          <button>Join CC Global Summit 2021</button>
+          <button type="submit">Join CC Global Summit 2021</button>
         </div>
       </div>
 
       <!-- SPEAKERS -->
-
-      <!-- FEATURED SPEAKERS -->
       <div class="speakers" id="speakerspage">
         <div class="topcontent">
           <h1>Featured Speakers</h1>
@@ -171,25 +183,21 @@
             <!-- LESS -->
             
             <div class="arrow">
-              <button id="lessarrowbtn">
+              <button type="submit" id="lessarrowbtn">
                 <span>
                   LESS
                   <img
                   src="./images/icons/uparrow.png"
                   alt="down-arrow img"
-                  id="downarrow"
+                  id="downarrow2"
                 />
                 </span>
-                
               </button>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- More arrow -->
+       </div>
+      <!-- FEATURED SPEAKERS -->
       <div class="arrow">
-        <button id="downarrowbtn">
+        <button type="submit" id="more">
           MORE
           <img
             src="./images/icons/down-arrow.png"
@@ -198,6 +206,37 @@
           />
         </button>
       </div>
+      <!-- More arrow -->
     </section>
+    <footer>
+      
+      <div class="lastcontainer">
+        <div class="partner">
+          <h1>Partner</h1>
+          <p id="past"></p>
+        </div>
+        <ul class="browsers">
+          <li><a href="#" id="mozilla">mozilla</a></li>
+          <li><a href="#" id="google">Google</a></li>
+          <li><a href="#" id="naver">NAVER</a></li>
+        </ul>
+
+        <!-- technologies -->
+        <ul class="technologies">
+          <li><img src="./images/icons/github.svg" alt="github link" /></li>
+          <li><img src="./images/icons/bird.svg" alt="bird img" /></li>
+        </ul>
+      </div>
+      <div class="lastcontent">
+        <div class="imagecontent">
+        <img src="./images/icons/approval.png" alt="approval img" />
+        <h2>Business around <br>the globe</h2>
+      </div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit. Sed distinctio fuga mollitia, nostrum est accusantium in, sapiente <br> omnis consequatur cupiditate iure 
+        </p>
+      </div>
+     
+    </footer>
   </body>
 </html>
